@@ -1,0 +1,242 @@
+body{
+    margin: 30px   150px;
+    background-color: rgb(236, 239, 252);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #183153;
+}
+body::-webkit-scrollbar{
+    width: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background: #183153;
+}
+.header{
+    display: center;
+    justify-content: stretch;
+}
+.inicio {
+    font-size: 150%;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+    color: #183153;
+}
+.inicio::link{
+    text-decoration: none;
+}
+.inicio::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color:#183153;
+    transform: scale(0,1);
+    transform-origin: left;
+    transition: transform .25s;
+}
+  
+.inicio:hover::after {
+    transform: scale(1,1);
+}
+.sobremi{
+    font-size: 150%;
+    font-weight: 800;
+    
+    text-decoration: none;
+    
+    cursor: pointer;
+    color: #183153;
+}
+.sobremi::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color:#183153;
+    transform: scale(0,1);
+    transform-origin: left;
+    transition: transform .25s;
+}
+.sobremi:hover::after {
+    transform: scale(1,1);
+}
+.proyectos{
+    font-size: 150%;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+    color: #183153;
+}
+.proyectos::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color:#183153;
+    transform: scale(0,1);
+    transform-origin: left;
+    transition: transform .25s;
+}
+.proyectos:hover::after {
+    transform: scale(1,1);
+}
+.resume{
+    font-size: 150%;
+    font-weight: 800;
+    
+    text-decoration: none;
+    
+    border: 1px solid;
+    border-width: 5px;
+    border-radius: 20%;
+    border-color: rgb(255, 235, 162);
+    background-color: rgb(255, 235, 162);
+    color: black;
+}
+.resume::hover{
+    background-color: antiquewhite;
+    transition: .7s;
+}
+.bienvenido{
+    font-size:150% ;
+}
+.hr1{
+    border: none;
+    height: 6px;
+    width: 25%;
+    float: left;
+    color: #183153; 
+    background-color: #183153; 
+}
+.name{
+    font-weight: 900;
+    font-size: 250%;
+    text-align: auto;
+}
+.iconpp{
+    float: right;
+    width: 250px;
+    margin-top: -150px;
+    border-radius: 50%;
+}
+.lorem1{
+    font-size: 25px;
+}
+.gith{
+    border: none;
+    border-radius: 5px;
+    width: 120px; height: 40px;
+    border-color: rgb(255, 235, 162);
+    background-color: rgb(255, 235, 162);
+}
+.gith::hover{
+    background-color: antiquewhite;
+    transition: .5s;
+}
+.linkl{
+    border: none;
+    border-radius:  5px;
+    width: 120px; height: 40px;
+    border-color: rgb(255, 235, 162);
+    background-color: rgb(255, 235, 162);
+}
+.linkl::hover{
+    background-color: antiquewhite;
+    transition: .5s;
+}
+.frasebox{
+    margin: auto;
+    width: 50%;
+    border: 4px solid #ffffff;
+    background-color: #ffffff;
+    padding: 20px;
+    font-weight: 200;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px  #18315357 ;
+}
+.comillas1{
+    width: 10%;
+    margin-top: -70px;
+    filter: #183157;
+}
+.hr2{
+    border: none;
+    height: 6px;
+    width: 25%;
+    float: left;
+    color: #183153; 
+    background-color: #183153; 
+}
+.sobremitxt{
+    font-weight: 900;
+    font-size: 250%;
+    text-align: left;
+}
+.sobremibox{
+    font-size: 25px;
+}
+.links{
+    color:#183153;
+    text-decoration: none;
+}
+.imglinks{
+  color: #183157;
+}
+.hr3{
+    border: none;
+    height: 6px;
+    width: 25%;
+    float: left;
+    color: #183153; 
+    background-color: #183153; 
+}
+.proyectostit{
+    font-weight: 900;
+    font-size: 250%;
+}
+.htmlycss{
+    border: 4px solid;
+    border-color: #183153;
+    border-radius: 5px;
+    padding: 20px;
+}
+.imghtmlcss{
+    float: left
+}
+.htmlcsstit{
+    text-align: center;
+}
+.htmlycsstxt{
+    font-size: 20px;
+    text-align: center;
+}
+.java{
+    border: 4px solid;
+    border-color: #183153;
+    border-radius: 5px;
+    padding: 20px;
+}
+.imgjava{
+    float: left;
+}
+.javatit{
+    text-align: center;
+}
+.javatxt{
+    font-size: 20px;
+    text-align: center;
+}
+.python{
+    border: 4px solid;
+    border-color: #183153;
+    border-radius: 5px;
+    padding: 20px;
+}
+.imgpy{
+    float: left;
+}
+.pytit{
+    text-align: center;
+}
+.pytxt{
+    font-size: 20px;
+    text-align: center;
+}
